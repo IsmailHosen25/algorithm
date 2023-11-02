@@ -15,12 +15,10 @@ def binary_search(arr, low, high, x):
  
     else:
         return -1
- 
+
 arr = [ 2, 3, 4, 10, 40 ]
 x = 4
- 
 result = binary_search(arr, 0, len(arr)-1, x)
- 
 if result != -1:
     print("Element is present at index", str(result))
 else:
