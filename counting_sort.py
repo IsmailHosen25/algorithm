@@ -15,7 +15,7 @@ def countingSort(arr):
         m -= 1
     for m in range(0, size):
         arr[m] = output[m]
-
+        
 data = [3,5,1,6,7,8,3,11,2,3,4,5,2,7,1]
 countingSort(data)
 print("Sorted Array: ")
